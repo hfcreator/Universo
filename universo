@@ -1,40 +1,47 @@
 <?xml version="1.0" encodig="utf-8">
 <universo>
-<sistemasolar estrella="sol">
-    
-  
-    <Planetas>
-        <planeta tipo="nanos">eris</planeta>
-        <planeta tipo="nanos">pluton</planeta> 
-        <planeta tipo="interiores">mercurio</planeta>
-        <planeta tipo="interiores">venus</planeta>
-        <planeta tipo="interiores">tierra
-                <satelite>luna</saletites>
-        </planeta>
-        <planeta tipo="interiores">marte</planeta>
-        <planeta tipo="exteriores">jupiter
-                <satelite >europa</saletites>
-        </planeta>
-        <planeta tipo="exteriores">saturno</planeta>
-        <planeta tipo="exteriores">urano</planeta>
-        <planeta tipo="exteriores">neptuno</planeta>
-    </planetas>
-    <cuerpoCelestes>
-        <cuerpopequeños>asteroide</cuerpopequeños>
-        <cuerpopequeños>cometas</cuerpopequeños>
-        <cuerpopequeños>estrellasfugaces</cuerpopequeños>
-        <cuerpopequeños>meteoritos</cuerpopequeños>
-    </ecuerpoCelestes>
-</sistemasolar>
-<sistema planetario Gliese 674 estrella="enana roja">
-    <planeta> GJ 674 b</planeta>
-</sistema planetario Gliese 674> 
-<sistema planetario Tau Ceti estrella="tCeti">
-   <exoplanetas>
-            <exoplaneta tipo="habitables">tau ceti E<exoplaneta>
-            <exoplaneta tipo="habitables">tau ceti F<exoplaneta>
-            <exoplaneta tipo="No habitable">tau ceti G<exoplaneta>
-            <exoplaneta tipo="No habitable">tau ceti H<exoplaneta>
-   </exoplanetas>
-</sistema planetario Tau Ceti estrella="tCeti">
+    <galaxia nombre="via lactea">
+        <nebulosa nombre="Nube Interestelar Local">
+            <sistemaPlanetario nombre="sistema solar" tipo="unica">
+                <estrella tipo="enana amarilla"> sol</estrella>
+            
+                <Planetas>
+                    <planeta tipo="nanos">eris</planeta>
+                    <planeta tipo="nanos">pluton</planeta> 
+                    <planeta tipo="interiores">mercurio</planeta>
+                    <planeta tipo="interiores">venus</planeta>
+                    <planeta tipo="interiores">tierra
+                            <satelite>luna</saletites>
+                    </planeta>
+                    <planeta tipo="interiores">marte</planeta>
+                    <planeta tipo="exteriores">jupiter
+                            <satelite >europa</saletites>
+                    </planeta>
+                    <planeta tipo="exteriores">saturno</planeta>
+                    <planeta tipo="exteriores">urano</planeta>
+                    <planeta tipo="exteriores">neptuno</planeta>
+                </planetas>
+                <cuerpoCelestes>
+                    <cuerpopequeños>asteroide</cuerpopequeños>
+                    <cuerpopequeños>cometas</cuerpopequeños>
+                    <cuerpopequeños>estrellasfugaces</cuerpopequeños>
+                    <cuerpopequeños>meteoritos</cuerpopequeños>
+                </ecuerpoCelestes>
+            </sistemaPlanetario>
+
+            <sistemaPlanetario nombre="alfaCentauri" tipo="triada">
+                 <estrella tipo="enana amarilla"> alfaCentauri A</estrella>
+                    <planetas/>
+                 <estrella tipo="enana amarilla"> alfaCentauri B</estrella>
+                     <planeta >alfaCentauri Bb </planeta>
+                <estrella tipo="enana roja">proximacentauri</estrella>
+                    <planeta>Próxima Centauri b</planeta>
+            </sistemaPlanetario>
+           
+        </nebulosa>
+
+    </galaxia>
+    <galaxia nombre="andromeda">
+    <nebulosa/>
+    </galaxia>
 </universo>
