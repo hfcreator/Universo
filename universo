@@ -37,13 +37,11 @@
                      <planeta >alfaCentauri Bb </planeta>
                 <estrella tipo="enana roja">proximacentauri</estrella>
                     <planeta>Próxima Centauri b</planeta>
-            </sistemaPlanetario>
-
-           
+            </sistemaPlanetario>           
         </nebulosa>
 
     </galaxia>
     <galaxia nombre="andromeda">
-    <>
+    <nebulosa/>
     </galaxia>
 </universo>
